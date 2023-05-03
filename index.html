@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Kumaraguru Institutions">
+    <meta name="author" content="iQube">
+    <meta name="keywords" content="Kumaraguru Institutions">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-06VNGWLL8Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-06VNGWLL8Y');
+</script>
+
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id"
+        content="748507315564-bij6s054kuv8ec2q77le8r7oe4tu977k.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+    <!-- Title Page-->
+    <title>Shruti Amrut - SPIC MACAY</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <center>
+
+                        <img src="Logo.png" alt="KCT" width="60%">
+                        <br>
+                        <!-- <img src="https://rigathon.kct.ac.in/static/img/core-img/logo.png" alt="KCT" width="20%"> -->
+
+                        <h1 class="title">   <br>Shruti Amrut - SPIC MACAY </h1>
+                        <p class="input--style-4">
+Ministry of Culture, Govt of India in association with SPIC MACAY organizes "Shruti Amrut" on May 6 & 7 in Kumaraguru Campus. Interested members can register to confirm their seats.
+                        </p>
+                        <br>
+                        <br>
+
+                    </center>
+
+                    <form method="POST" id="form">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Name</label>
+                                    <input class="input--style-4" type="text" name="Name" id="Name" required>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Phone Number</label>
+                                    <input class="input--style-4" type="text" name="Phone" id="Phone" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Email</label>
+                            <input class="input--style-4" type="text" name="email" id="email" required>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Category</label>
+                            <!-- <input class="input--style-4" type="text" name="Category" id="Category" required> -->
+                            <select class="input--style-4" style="width: 100%;" name="Category" id="Category" required>
+                                <option  value="------"  selected>-----------</option>
+                                <option  value="Industry">Industry/Corporate/Org</option>
+                                <option  value="NGO">NGO</option>
+                                <option   value="Student">Student</option>
+                                <option   value="Faculty">Faculty / Teachers</option>
+                                <option   value="Uniform">Uniform Services / Defence</option>
+                            </select>
+                        </div>
+                         <div class="input-group">
+                            <label class="label">Organisation Name</label>
+                            <input class="input--style-4" type="text" name="Organisation" id="Organisation" required>
+                        </div>
+
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Designation</label>
+                                    <input class="input--style-4" type="text" name="Designation" id="Designation" required>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Number of passes required</label>
+                                    <input class="input--style-4" type="number" name="Nopasses" id="Nopasses" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="" >
+                            <label  style="margin-bottom: 10px;" class="label">Please select the Concert that you would like to attend</label> 
+                            <!-- <input class="input--style-4" type="text" name="Concert" id="Concert" required> -->
+                            <input style="width: 20px;" type="checkbox" id="May6" name="May6" value="yes">
+                            <label style="line-height: 35px !important;" class="input--style-4" for="May6"> May 6 - Smt Gopika Varma & Pt Uday Bhawalkar </label> <br>
+                            <input style="width: 20px;" type="checkbox" id="May7" name="May7" value="yes">
+                            <label  style="line-height: 35px !important;"class="input--style-4" for="May7"> May 7 - Smt Aruna Sairam & Pt Hariprasad Chaurasia</label><br>
+                        </div>
+
+<br>
+                        <center>
+                            <div class="">
+                                <button class="btn btn--radius-2 btn--blue" id="submit" type="submit">Submit</button>
+                            </div>
+                        </center>
+                    </form>
+
+
+
+                    <script>
+                        // const scriptURL = 'https://script.google.com/macros/s/AKfycbyOQXjZR85sJ-BZLlnOOmQQIbxyIjCbCGuhdc2oDoaxzIRjruWlywquScQs_A3qB-xr/exec'
+                        window.addEventListener('DOMContentLoaded', () => {
+
+                            const form = document.getElementById("form")
+
+                            form.addEventListener('submit', e => {
+                                e.preventDefault()
+                                if(document.getElementById('Category').value == "------")  return swal('oh noes!', 'Choose a Category', 'error')
+                                if(!document.getElementById('May7').checked  &&  !document.getElementById('May6').checked)  return swal('oh noes!', 'Choose atleast 1 concert to proceed', 'error')
+                                const button_element = document.getElementById("submit")
+                                button_element.disabled = true
+                                button_element.textContent = "Submitting..."
+                                fetch("https://script.google.com/macros/s/AKfycby6IGGTKyLhWEcpaj65VmvxKVCNFFUco_9u9gvvNxRQwRA4m33131_-5ts3ICbZM3Bp/exec",{
+		method:"POST",body:new FormData(form)}).then(response => {
+                                        button_element.classList.remove('btn-primary')
+                                        button_element.classList.add('btn-success')
+                                        button_element.textContent = "Done!"
+                                        console.log(response)
+                                        if (response.status == 200) {
+                                            console.log('Success!', response)
+                                            swal("Good job!", "Your response has been recorded!", "success").then((value) => {
+                                                // var myWindow = window.open("https://accounts.google.com/logout", "myWindow", "width=200,height=100");
+                                                // setTimeout(function () { myWindow.close() }, 4000);
+                                                // setTimeout(function () { location.reload(); }, 5000);
+                                                location.reload();
+                                            });
+
+                                            swal("Good job!", "Your response has been recorded!", "success");
+                                            document.getElementById("form").reset();
+                                            // var myWindow = window.open("https://accounts.google.com/logout", "myWindow", "width=200,height=100");
+                                            // setTimeout(function () { myWindow.close() }, 4000);
+                                            // setTimeout(function () { location.reload(); }, 5000);
+                                        }
+                                    })
+                                    .catch(error => {
+                                        console.error('Error!', error.message)
+                                        button_element.classList.remove('btn-primary')
+                                        button_element.classList.add('btn-danger')
+                                        button_element.textContent = "Sorry"
+                                        swal('oh noes!', 'Error submitting data.Please try again later.', 'error')
+                                    })
+                            })
+                        })
+
+                    </script>
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
